@@ -1,0 +1,18 @@
+#                                                                        #
+# Settings                                                               #
+#                                                                        #
+
+TYPO3:
+  Neos:
+    Plugins:
+      'Flowstarter.Contact:ContactPlugin':
+        label: 'Contacts'
+        pluginViews:
+          'ContactShow':
+            label: 'Show Contact'
+            controllerActions:
+              'Flowstarter\Contact\Controller\ContactPersonController': ['show']
+          'ContactForm':
+            label: 'Edit Contact'
+            controllerActions:
+              'Flowstarter\Contact\Controller\ContactPersonController': ['edit']

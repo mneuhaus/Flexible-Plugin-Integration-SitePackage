@@ -40,3 +40,17 @@
         reloadIfChanged: TRUE
         inspector:
           group: video
+
+'Flowstarter.Contact:ContactPlugin':
+  superTypes: ['TYPO3.Neos.ContentTypes:Plugin']
+  ui:
+    label: 'Contacts'
+    group: 'Plugins'
+    inspector:
+      groups:
+        pluginSettings:
+          label: 'Plugin Settings'
+  showUneditableOverlay: false
+  groups:
+    pluginSettings:
+      label: 'Plugin Settings'

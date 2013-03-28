@@ -13,3 +13,10 @@ prototype(TYPO3.NeosDemoTypo3Org:YouTube) {
 	width = ${q(node).property('width')}
 	height = ${q(node).property('height')}
 }
+
+prototype(Flowstarter.Contact:ContactPlugin) < prototype(TYPO3.Neos.ContentTypes:Plugin)
+prototype(Flowstarter.Contact:ContactPlugin) {
+	package = 'Flowstarter.Contact'
+	controller = 'ContactPerson'
+	action = 'index'
+}
