@@ -16,3 +16,5 @@ TYPO3:
             label: 'Edit Contact'
             controllerActions:
               'Flowstarter\Contact\Controller\ContactPersonController': ['edit']
+
+    loadMinifiedJavascript: FALSE
