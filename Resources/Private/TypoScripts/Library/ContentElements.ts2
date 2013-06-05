@@ -14,7 +14,7 @@ prototype(TYPO3.NeosDemoTypo3Org:YouTube) {
 	height = ${q(node).property('height')}
 }
 
-prototype(Flowstarter.Contact:ContactPlugin) < prototype(TYPO3.Neos.NodeTypes:Plugin)
+prototype(Flowstarter.Contact:ContactPlugin) < prototype(TYPO3.Neos:Plugin)
 prototype(Flowstarter.Contact:ContactPlugin) {
 	package = 'Flowstarter.Contact'
 	controller = 'ContactPerson'

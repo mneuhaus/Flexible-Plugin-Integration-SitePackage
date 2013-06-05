@@ -3,14 +3,16 @@
     - 'TYPO3.Neos:Plugin'
   ui:
     label: 'Editor Registration Plugin'
-    icon: 'icon-user'
-
+    group: Plugins
 'TYPO3.NeosDemoTypo3Org:YouTube':
   superTypes:
     - 'TYPO3.Neos.NodeTypes:Headline'
   ui:
     label: YouTube
-    icon: 'icon-youtube'
+    group: General
+    icon:
+      light: Images/Icons/White/youtube_icon-16.png
+      dark: Images/Icons/Black/youtube_icon-16.png
     inspector:
       groups:
         video:
@@ -18,29 +20,28 @@
   properties:
     video:
       type: string
-      defaultValue: ''
       ui:
         label: ID
-        reloadIfChanged: TRUE
+        defaultValue: ''
+        reloadIfChanged: true
         inspector:
           group: video
     width:
       type: integer
-      defaultValue: 400
       ui:
         label: Width
-        reloadIfChanged: TRUE
+        defaultValue: 400
+        reloadIfChanged: true
         inspector:
           group: video
     height:
       type: integer
-      defaultValue: 300
       ui:
         label: Height
-        reloadIfChanged: TRUE
+        defaultValue: 300
+        reloadIfChanged: true
         inspector:
           group: video
-
 'Flowstarter.Contact:ContactPlugin':
   superTypes: ['TYPO3.Neos.NodeTypes:Plugin']
   ui:
