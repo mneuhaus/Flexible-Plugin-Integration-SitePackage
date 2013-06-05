@@ -25,7 +25,7 @@
 				</properties>
 				<node identifier="4f4226cf-7302-4311-b53e-f864489cc1d0" locale="" nodeName="teaser" type="TYPO3.Neos.NodeTypes:Section"/>
 				<node identifier="e4cb47a3-1c2d-4482-b43e-02a2d04a4b14" locale="" nodeName="main" type="TYPO3.Neos.NodeTypes:Section">
-					<node identifier="f97c575a-c707-4faa-ab09-7e009aa49dbb" locale="" nodeName="node5166cbea08797" type="TYPO3.Neos.NodeTypes:PluginView">
+					<node identifier="f97c575a-c707-4faa-ab09-7e009aa49dbb" locale="" nodeName="node5166cbea08797" type="TYPO3.Neos:PluginView">
 						<properties>
 							<view>Flowstarter.Contact:ContactPlugin:ContactShow</view>
 							<plugin>/sites/neosdemotypo3org/homepage/home/main/node516526aa1a899</plugin>

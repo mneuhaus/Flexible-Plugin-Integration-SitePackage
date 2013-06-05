@@ -20,3 +20,5 @@ prototype(Flowstarter.Contact:ContactPlugin) {
 	controller = 'ContactPerson'
 	action = 'index'
 }
+
+prototype(TYPO3.Neos:PluginView).@class = 'TYPO3\\Neos\\TypoScript\\PluginViewImplementation'

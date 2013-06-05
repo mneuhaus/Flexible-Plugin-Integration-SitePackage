@@ -1,3 +1,4 @@
+include: resource://TYPO3.Neos/Private/TypoScript/DefaultTypoScript.ts2
 include: TypoScripts/Library/ContentElements.ts2
 namespace: TypoScript=TYPO3.TypoScript
 

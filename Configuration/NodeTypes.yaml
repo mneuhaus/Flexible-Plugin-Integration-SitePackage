@@ -43,7 +43,7 @@
         inspector:
           group: video
 'Flowstarter.Contact:ContactPlugin':
-  superTypes: ['TYPO3.Neos.NodeTypes:Plugin']
+  superTypes: ['TYPO3.Neos:Plugin']
   ui:
     label: 'Contacts'
     group: 'Plugins'
